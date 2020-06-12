@@ -8,7 +8,7 @@ import os
 import shutil
 from os import path
 
-DIRECTORY_NAME = 'C:/'  # this variable contains directory name which stores file whose copies will be created
+DIRECTORY_NAME = r'C:\Users\chinbhus\OneDrive - Qualcomm\Desktop\Progs'  # this variable contains directory name which stores file whose copies will be created
 FILE_NAME = './QCN/'  # name of the folder where copies will be created
 adblist = 'adb.txt'  # this variable contains txt file containing name which will be used for naming
 
@@ -22,10 +22,8 @@ DEVICE_ABD_ID = []  # used for storing list of abd devices
 def getFileName():
     global QCN_FILE
     for findFile in glob.glob('*' + EXTENSION):
-        QCN_FILE_NAME = ''
-        EXTENSIONS = ''
-        QCN_FILE, EXTENSIONS = findFile.split('.')[1:]
-    return QCN_FILE
+        QCN_FILE = findFile.split('.')[:1]
+    return QCN_FILE[0]
 
 
 # Get list of names that will be used for naming
@@ -41,11 +39,11 @@ def GET_DEVICE_LIST(filename):
 def main():
     global QCN_FILE, EXTENSION
     os.chdir(DIRECTORY_NAME)  # changing directory where we have pasted our file, whose copies will be created
-    getFileName()
-    QCN_FILE = GET_DEVICE_LIST(adblist)
-    for d in range(len(DEVICE_ABD_ID)):
-        if path.exists(QCN_FILE[d] + EXTENSION):
-            shutil.copyfile(QCN_FILE[d] + EXTENSION, FILE_NAME + DEVICE_ABD_ID[d] + EXTENSIONS)  # function copies files and renames the file, both the functions are performed simultaneously
+    QCN_FILE = str(getFileName())
+    DEVICE_LIST = GET_DEVICE_LIST(adblist)
+    for d in range(len(DEVICE_LIST)):
+        if path.exists(QCN_FILE + EXTENSION):
+            shutil.copyfile(QCN_FILE + EXTENSION, FILE_NAME + DEVICE_LIST[d] + EXTENSION)  # function copies files and renames the file, both the functions are performed simultaneously
 
 
 if __name__ == "__main__":
