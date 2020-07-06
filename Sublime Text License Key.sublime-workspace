@@ -1,0 +1,305 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"btr",
+				"btr-block"
+			],
+			[
+				"bt",
+				"btr-primary"
+			],
+			[
+				"right",
+				"right-panel-link"
+			],
+			[
+				"pre",
+				"predict_prices"
+			],
+			[
+				"pr",
+				"price"
+			],
+			[
+				"cs",
+				"csv"
+			],
+			[
+				"sv",
+				"svf_poly"
+			],
+			[
+				"pri",
+				"predict"
+			],
+			[
+				"svf",
+				"svf_rbf"
+			],
+			[
+				"csv",
+				"csvFileReader"
+			],
+			[
+				"i",
+				"inc\t#include \"…\""
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Mat",
+				"Material Theme: Activate theme"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"mater",
+				"Trimmer: Trim leading AND trailing whitespace."
+			],
+			[
+				"ins",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"",
+				"Build With: C++ Single File"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: I",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 741.0
+	},
+	"console":
+	{
+		"height": 172.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/bhushan.chinmay/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/C/Users/bhushan.chinmay/AppData/Roaming/Sublime Text 3/Packages/User/inputf.in",
+		"/C/Users/bhushan.chinmay/AppData/Roaming/Sublime Text 3/Packages/User/C++17.sublime-settings",
+		"/C/Users/bhushan.chinmay/AppData/Roaming/Sublime Text 3/Packages/User/file.cpp",
+		"/C/Users/bhushan.chinmay/AppData/Roaming/Sublime Text 3/Packages/User/outputf.in",
+		"/C/Program Files/Sublime Text 3/Sublime Text License 3211.txt",
+		"/F/Android/LightSensor/app/src/main/java/com/example/bhushanchinmay/lightsensor/MainActivity.java",
+		"/F/Android/MyApplication/app/src/main/java/com/example/bhushanchinmay/firstapk/MainActivity.java",
+		"/F/Android/ProjectAndroid/app/src/test/java/com/example/bhushanchinmay/projectandroid/ExampleUnitTest.java",
+		"/F/Chrome Downloads/Railway Reservation System C++ Project/railway reservation system.cpp",
+		"/F/Work/Programs Practise/Bitwise Operator 1.cpp",
+		"/C/Users/bhushan.chinmay/AppData/Roaming/Sublime Text 3/Packages/C++11/messages/install.txt",
+		"/C/Users/bhushan.chinmay/Desktop/railwayreservationsystem.cpp",
+		"/C/Users/bhushan.chinmay/Desktop/p.txt",
+		"/F/Android/ProjectAndroid/app/build/outputs/logs/manifest-merger-debug-report.txt",
+		"/F/Android/Quiz/app/build/outputs/apk/app-debug.apk",
+		"/C/Users/bhushan.chinmay/Documents/Sublime Text 3/Test.c",
+		"/C/Users/bhushan.chinmay/AppData/Roaming/Sublime Text 3/Packages/User/C++11.sublime-settings",
+		"/C/Users/bhushan.chinmay/Desktop/Docs/Stock_Predict.py",
+		"/C/Users/bhushan.chinmay/AppData/Roaming/Sublime Text 3/Packages/C Improved/tests/test_lexlines.c",
+		"/C/Users/bhushan.chinmay/AppData/Roaming/Sublime Text 3/Packages/C Improved/tests/test_struct.c",
+		"/C/Users/bhushan.chinmay/AppData/Roaming/Sublime Text 3/Packages/C Improved/tests/test_numbers.c",
+		"/F/Work/Documents/Coursera/machine-learning-ex4/ex4/nnCostFunction.m",
+		"/C/Users/bhushan.chinmay/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Sublime Text License Key.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 207.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
