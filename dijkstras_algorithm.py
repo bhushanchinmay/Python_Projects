@@ -11,8 +11,7 @@
 # 
 # Repeat 4 and 5 until the heap is empty
 # After the heap is empty, return the distances
-#
-#
+####################################################################################################################
 # In order to keep track of all the distances for Dijkstra’s Algorithm, we will be using a heap! Using a heap 
 # will allow removing the minimum from the heap to be efficient. In python, there is a library called heapq 
 # which we will use to do all of our dirty work for us!
@@ -21,7 +20,7 @@
 #
 # heappush will add a value to the heap and adjust the heap accordingly
 # heappop will remove and return the smallest value from the heap
-#
+####################################################################################################################
 # Define the function with a start vertex and a graph.
 # 
 # Instantiate a distances dictionary that will eventually map vertices to their distance from their start vertex.
@@ -32,13 +31,34 @@
 # First, we’ll traverse the vertices_to_explore heap until it is empty, popping off the vertex 
 # with the minimum distance from start. Inside our while loop, we’ll iterate over the neighboring 
 # vertices of current_vertex and add each neighbor (and its distance from start) to the vertices_to_explore min-heap.
-
-In each neighbor iteration, we will do the following:
-
-Identify neighbor‘s distance from start.
-Make sure the new distance found for neighbor is less than the distance currently set for distances[neighbor].
-Update distances[neighbor] if the new distance is smaller than the currently recorded distance.
-Add neighbor and its distance to the vertices_to_explore min-heap.
+#
+# In each neighbor iteration, we will do the following:
+#
+# Identify neighbor‘s distance from start.
+# Make sure the new distance found for neighbor is less than the distance currently set for distances[neighbor].
+# Update distances[neighbor] if the new distance is smaller than the currently recorded distance.
+# Add neighbor and its distance to the vertices_to_explore min-heap.
+####################################################################################################################
+# Pseudo Code:
+#
+# create dictionary to map vertices to their distance from start vertex
+#
+# assign start vertex a distance of 0 in min heap
+#
+# assign every other vertex a distance of infinity in min heap
+#
+# remove the vertex with the minimum distance from the min heap and set it to the current vertex
+#
+# while min heap is not empty:
+#   for each current vertex:
+#     for each neighbor in neighbors:
+#     new distance = (distance to current vertex) + (edge weight of current vertex to neighbor)
+#
+#     if new distance is less than its current distance:
+#       current distance = new distance
+#
+# return distances
+###################################################################################################################
 
 from heapq import heappop, heappush
 from math import inf
