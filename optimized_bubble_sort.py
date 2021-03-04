@@ -8,11 +8,11 @@
 #
 # This is fewer than n^2-n comparisons but the algorithm still has a big O runtime of O(N^2).
 
-As the input, N, grows larger, the division by two has less significance. Big O considers inputs as they reach infinity so the higher order term N^2 completely dominates.
+# As the input, N, grows larger, the division by two has less significance. Big O considers inputs as they reach infinity so the higher order term N^2 completely dominates.
 
-We can’t make Bubble Sort better than O(N^2), but let’s take a look at the optimized code and compare iterations between implementations!
-nums = [9, 8, 7, 6, 5, 4, 3, 2, 1]
-print("PRE SORT: {0}".format(nums))
+# We can’t make Bubble Sort better than O(N^2), but let’s take a look at the optimized code and compare iterations between implementations!
+# nums = [9, 8, 7, 6, 5, 4, 3, 2, 1]
+# print("PRE SORT: {0}".format(nums))
 
 def swap(arr, index_1, index_2):
   temp = arr[index_1]
